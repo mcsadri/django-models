@@ -49,8 +49,8 @@ Django has a powerful Object Relational Mapper (ORM) that allows us to persist d
 
 ### Templates
 
-- [ ] Add `templates` folder in root of project
-  - [ ] register `templates` folder in project settings TEMPLATES section
+- [X] Add `templates` folder in root of project
+  - [X] register `templates` folder in project settings TEMPLATES section
 - [ ] create `base.html` ancestor template
   - [ ] add main html document
   - [ ] use `Django Templating Language` to allow child templates to insert content
