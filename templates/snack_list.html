@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    {%  for snack in snacks %} {# default object name = object_list, this is overridden by adding a views.py class variable named context_object_name #}
+
+        <p>{{ snack.name }} was purchased by {{ snack.purchaser }}.</p>
+        {{ snack.description }}
+
+    {% endfor %}
+
+{% endblock content %}
