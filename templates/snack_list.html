@@ -2,6 +2,8 @@
 
 {% block content %}
 
+    <h1>Autobot Snack Inventory</h1>
+
     {%  for snack in snacks %} {# default object name = object_list, this is overridden by adding a views.py class variable named context_object_name #}
 
         <h2><a href="{% url 'snack_detail' snack.pk %}">{{ snack.name }}</a></h2>

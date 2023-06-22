@@ -9,7 +9,10 @@
 </head>
 <body>
 
-    <h1>Autobot Snack Inventory</h1>
+    <nav>
+        <a href="{% url 'snack_list' %}">Home</a>
+        <a href="{% url 'snack_about' %}">About</a>
+    </nav>
 
     {% block content %}
 
