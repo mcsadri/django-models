@@ -62,7 +62,7 @@ Django has a powerful Object Relational Mapper (ORM) that allows us to persist d
   - [X] template should extend base
   - [X] content should display snack’s name, description and purchaser
 - [X] add link in snack_list template to related detail page for each snack
-- [ ] Add a link back to Home (aka snack_list) page from detail page.
+- [X] Add a link back to Home (aka snack_list) page from detail page.
 
 ### UAT
 
