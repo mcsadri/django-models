@@ -66,11 +66,11 @@ Django has a powerful Object Relational Mapper (ORM) that allows us to persist d
 
 ### UAT
 
-- [ ] Test Snack pages
-  - [ ] NOTE make sure test extends TestCase instead of SimpleTestCase used in previous class.
-  - [ ] verify status code
-  - [ ] verify correct template use
-  - [ ] use url name instead of hard coded path
-    - [ ] TIP: django.urls.reverse will help with that.
-- [ ] We can’t easily test SnackDetailView just yet.
-  - [ ] Can you figure out why?
+- [X] Test Snack pages
+  - [X] NOTE make sure test extends TestCase instead of SimpleTestCase used in previous class.
+  - [X] verify status code
+  - [X] verify correct template use
+  - [X] use url name instead of hard coded path
+    - [X] TIP: django.urls.reverse will help with that.
+- [X] We can’t easily test SnackDetailView just yet.
+  - [X] Can you figure out why?
