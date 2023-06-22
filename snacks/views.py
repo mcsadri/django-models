@@ -9,4 +9,5 @@ class SnackListView(ListView):
 
 
 class SnackDetailView(DetailView):
-    pass
+    template_name = "snack_detail.html"
+    model = Snack

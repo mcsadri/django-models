@@ -4,8 +4,7 @@
 
     {%  for snack in snacks %} {# default object name = object_list, this is overridden by adding a views.py class variable named context_object_name #}
 
-        <p>{{ snack.name }} was purchased by {{ snack.purchaser }}.</p>
-        {{ snack.description }}
+        <h2><a href="{% url 'snack_detail' snack.pk %}">{{ snack.name }}</a></h2>
 
     {% endfor %}
 
